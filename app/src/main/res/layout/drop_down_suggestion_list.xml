@@ -1,0 +1,12 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/text1"
+    style="?android:attr/dropDownItemStyle"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bottom_dark_border"
+    android:backgroundTint="@color/colorWhite"
+    android:gravity="center"
+    android:padding="5dp"
+    android:textAppearance="?android:attr/textAppearanceMediumInverse"
+    android:textColor="@color/colorRed"
+    android:textSize="20sp" />

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorDarkBlue"
+        android:gravity="center"
+        android:text="Izmaiņas"
+        android:textColor="@color/colorWhite"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:text="Stunda:"
+        android:textColor="@color/colorDarkBlue"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView15"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView15"
+        android:layout_toEndOf="@+id/textView15"
+        android:gravity="center_vertical"
+        android:paddingLeft="15sp"
+        android:paddingRight="15sp"
+        android:text="TextView"
+        android:textColor="@color/colorRed"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:text="Kabinets:"
+        android:textColor="@color/colorDarkBlue"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView15"
+        android:layout_alignLeft="@+id/textView15"
+        android:layout_alignStart="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView27"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView27"
+        android:layout_toRightOf="@+id/textView27"
+        android:gravity="center_vertical"
+        android:paddingLeft="15sp"
+        android:paddingRight="15sp"
+        android:text="TextView"
+        android:textColor="@color/colorRed"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Priekšmets:"
+        android:textColor="@color/colorDarkBlue"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView27"
+        android:layout_alignLeft="@+id/textView27"
+        android:layout_alignStart="@+id/textView27" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView30"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView30"
+        android:layout_toRightOf="@+id/textView30"
+        android:gravity="center_vertical"
+        android:paddingLeft="15sp"
+        android:paddingRight="15sp"
+        android:text="TextView"
+        android:textColor="@color/colorRed"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView30"
+        android:layout_alignStart="@+id/textView30"
+        android:layout_below="@+id/textView30"
+        android:layout_marginTop="40dp"
+        android:text="Stunda:"
+        android:textColor="@color/colorDarkBlue"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="15sp"
+        android:paddingRight="15sp"
+        android:text="TextView"
+        android:textColor="@color/colorRed"
+        android:textSize="20sp"
+        android:layout_alignBaseline="@+id/textView32"
+        android:layout_alignBottom="@+id/textView32"
+        android:layout_toRightOf="@+id/textView32"
+        android:layout_toEndOf="@+id/textView32"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Klase:"
+        android:textColor="@color/colorDarkBlue"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView33"
+
+        android:layout_alignLeft="@+id/textView32"
+        android:layout_alignStart="@+id/textView32" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView34"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/textView34"
+        android:layout_toRightOf="@+id/textView34"
+        android:paddingLeft="15sp"
+        android:paddingRight="15sp"
+        android:text="TextView "
+        android:textColor="@color/colorRed"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView62"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Priekšmets:"
+        android:textColor="@color/colorDarkBlue"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/textView58"
+        android:layout_alignLeft="@+id/textView34"
+        android:layout_alignStart="@+id/textView34" />
+
+    <TextView
+        android:id="@+id/textView63"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:maxLines="3"
+        android:paddingLeft="15sp"
+        android:paddingRight="15sp"
+        android:text="Textview \n l"
+        android:textColor="@color/colorRed"
+        android:textSize="20sp"
+        android:layout_alignTop="@+id/textView62"
+        android:layout_toRightOf="@+id/textView62"
+        android:layout_toEndOf="@+id/textView62"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp" />
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Sākums"
+        android:id="@+id/homeItem"
+        android:icon="@drawable/ic_home"
+        />
+    <item
+        android:title="Izmaiņas"
+        android:id="@+id/changesItem"
+        android:icon="@drawable/ic_view_quilt_black_24dp"
+        />
+    <item
+        android:title="Info"
+        android:id="@+id/infoItem"
+        android:icon="@drawable/ic_info"
+        />
+    <item
+        android:title="Dienasgrāmata"
+        android:id="@+id/placeItem"
+        android:icon="@drawable/ic_klases_izmainas"
+        />
+    <item
+        android:title="Uzstādījumi"
+        android:id="@+id/settingsItem"
+        android:icon="@drawable/ic_settings"
+        />
+
+</menu>

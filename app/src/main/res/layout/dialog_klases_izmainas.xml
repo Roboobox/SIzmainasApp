@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/colorWhite">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorDarkBlue"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:text="Izmaiņas"
+        android:textColor="@color/colorWhite"
+        android:textSize="35sp" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="165sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView10"
+        android:background="@drawable/full_border_red">
+
+        <TextView
+            android:id="@+id/textIzmainasPrieksmetsOld"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textIzmainasKabinetsOld"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignStart="@+id/textIzmainasKabinetsOld"
+            android:layout_alignTop="@+id/textView56"
+            android:text="TextView"
+            android:textColor="@color/colorRed"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView57"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="15dp"
+            android:text="Stunda:"
+            android:textColor="@color/colorDarkBlue"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView55"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="54dp"
+            android:text="Kabinets:"
+            android:textColor="@color/colorDarkBlue"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textIzmainasStundaOld"
+            android:layout_width="40sp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView57"
+            android:layout_alignBottom="@+id/textView57"
+            android:layout_alignLeft="@+id/textIzmainasKabinetsOld"
+            android:layout_alignStart="@+id/textIzmainasKabinetsOld"
+            android:inputType="number"
+            android:maxLength="2"
+            android:text="10"
+            android:textColor="@color/colorRed"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView56"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView55"
+            android:layout_alignStart="@+id/textView55"
+            android:layout_below="@+id/textView55"
+            android:layout_marginTop="11dp"
+            android:text="Priekšmets:"
+            android:textColor="@color/colorDarkBlue"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textIzmainasKabinetsOld"
+            android:layout_width="70sp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView56"
+            android:layout_marginLeft="21dp"
+            android:layout_marginStart="21dp"
+            android:layout_toEndOf="@+id/textView56"
+            android:layout_toRightOf="@+id/textView56"
+            android:inputType="number"
+            android:maxLength="4"
+            android:text="3128"
+            android:textColor="@color/colorRed"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/full_border_green"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/textView49"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            android:text="Stunda:"
+            android:textColor="@color/colorDarkBlue"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView59"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView49"
+            android:layout_alignStart="@+id/textView49"
+            android:layout_below="@+id/textView49"
+            android:layout_marginTop="11dp"
+            android:text="Klase:"
+            android:textColor="@color/colorDarkBlue"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textIzmainasPrieksmetsNew"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView60"
+            android:layout_alignBottom="@+id/textView60"
+            android:layout_alignLeft="@+id/textIzmainasKlaseNew"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignStart="@+id/textIzmainasKlaseNew"
+            android:gravity="center_vertical"
+            android:inputType="textMultiLine"
+            android:maxLines="2"
+            android:text="-"
+            android:textColor="@color/colorRed"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textIzmainasKlaseNew"
+            android:layout_width="70sp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView60"
+            android:layout_alignLeft="@+id/textIzmainasStundaNew"
+            android:layout_alignStart="@+id/textIzmainasStundaNew"
+            android:text="-"
+            android:textColor="@color/colorRed"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView60"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView59"
+            android:layout_alignStart="@+id/textView59"
+            android:layout_below="@+id/textView59"
+            android:layout_marginTop="13dp"
+            android:layout_toStartOf="@+id/textIzmainasPrieksmetsNew"
+            android:text="Priekšmets:"
+            android:textColor="@color/colorDarkBlue"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_toLeftOf="@+id/textIzmainasPrieksmetsNew" />
+
+        <TextView
+            android:id="@+id/textView61"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textIzmainasInfoNew"
+            android:layout_alignBottom="@+id/textIzmainasInfoNew"
+            android:layout_alignLeft="@+id/textView60"
+            android:layout_alignStart="@+id/textView60"
+            android:text="Info:"
+            android:textColor="@color/colorDarkBlue"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textIzmainasInfoNew"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textIzmainasPrieksmetsNew"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignStart="@+id/textIzmainasPrieksmetsNew"
+            android:layout_below="@+id/textIzmainasPrieksmetsNew"
+            android:paddingBottom="25dp"
+            android:paddingTop="15dp"
+            android:text="-"
+            android:textColor="@color/colorOrange"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textIzmainasStundaNew"
+            android:layout_width="40sp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView49"
+            android:layout_alignBottom="@+id/textView49"
+            android:layout_marginLeft="67dp"
+            android:layout_marginStart="67dp"
+            android:layout_toEndOf="@+id/textView49"
+            android:layout_toRightOf="@+id/textView49"
+            android:inputType="number"
+            android:maxLength="2"
+            android:text="-"
+            android:textColor="@color/colorRed"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/buttonOkIzmainas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:focusable="false"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/relativeLayout2"
+        app:backgroundTint="@color/colorRed"
+        android:text="OK" />
+
+</RelativeLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@color/colorWhite">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.04"
+        android:background="@color/colorDarkBlue"
+        android:gravity="center"
+        android:text="Pievienot stundu"
+        android:textColor="@color/colorWhite"
+        android:textSize="35sp" />
+
+    <EditText
+        android:id="@+id/editDialogStunda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.04"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Stunda"
+        android:textColorHint="@color/colorDarkBlue"
+        android:inputType="number"
+        android:maxLength="2"
+        android:maxLines="1"
+        android:textColor="@color/colorRed"
+        android:textColorHighlight="@color/colorRed"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editDialogKabinets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.04"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Kabinets"
+        android:inputType="text"
+        android:maxLength="4"
+        android:maxLines="1"
+        android:textColor="@color/colorRed"
+        android:textColorHint="@color/colorDarkBlue"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompletePrieksmets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.04"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Priekšmets"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:maxLength="23"
+        android:maxLines="1"
+        android:textColor="@color/colorRed"
+        android:textColorHint="@color/colorDarkBlue"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+
+    <Button
+        android:id="@+id/buttonPievienotDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.04"
+        app:backgroundTint="@color/colorRed"
+        android:text="Pievienot"
+        android:textSize="20sp" />
+</LinearLayout>

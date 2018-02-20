@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:padding="2dp"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="@drawable/bottom_dark_border"
+        android:descendantFocusability="blocksDescendants"
+        android:focusable="false">
+
+        <TextView
+
+
+            android:id="@+id/textStundNum"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:focusable="false"
+            android:gravity="center"
+            android:text="10"
+            android:textColor="@color/colorRed"
+            android:textSize="23sp" />
+
+
+        <TextView
+            android:id="@+id/textStundasKabinets"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/textStundNum"
+            android:layout_toRightOf="@+id/textStundNum"
+            android:focusable="false"
+            android:gravity="center"
+            android:hint="Kabinets"
+            android:inputType="none"
+            android:maxLength="4"
+            android:nextFocusDown="@+id/textStundasNosauk"
+            android:nextFocusForward="@+id/textStundasNosauk"
+            android:text="TextView"
+            android:textColor="@color/colorDarkBlue"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/textStundasNosauk"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/textStundasKabinets"
+            android:layout_toLeftOf="@+id/buttonDelete"
+            android:layout_toRightOf="@+id/textStundasKabinets"
+            android:focusable="false"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Priekšmets"
+            android:textColor="@color/colorRed"
+            android:textSize="23sp" />
+
+        <ImageButton
+            android:id="@+id/buttonDelete"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="0.76"
+            android:background="@null"
+            android:clickable="true"
+            android:focusable="false"
+            android:scaleType="fitCenter"
+            android:src="@android:drawable/ic_delete"
+            app:srcCompat="@android:drawable/ic_delete" />
+
+    </RelativeLayout>
+
+</LinearLayout>

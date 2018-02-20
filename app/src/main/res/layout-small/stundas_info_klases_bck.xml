@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:weightSum="1"
+    android:background="@drawable/list_border">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_weight="0.79">
+
+        <TextView
+            android:id="@+id/textKlase"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textStundNum"
+            android:layout_alignBottom="@+id/textStundNum"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp"
+            android:layout_toEndOf="@+id/textStundNum"
+            android:layout_toRightOf="@+id/textStundNum"
+            android:singleLine="true"
+            android:text="9-12"
+            android:textColor="@color/colorDarkBlue"
+            android:textSize="26sp" />
+
+        <TextView
+
+
+            android:id="@+id/textStundNum"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:text="10"
+            android:textColor="@color/colorRed"
+            android:textSize="26sp" />
+
+
+        <TextView
+            android:id="@+id/textStundasNosauk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="TextView"
+            android:textColor="@color/colorRed"
+            android:textSize="23sp"
+            android:layout_toRightOf="@+id/textKlase"
+            android:layout_toEndOf="@+id/textKlase"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true" />
+
+        <TextView
+            android:id="@+id/textDatums"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="Datums"
+            android:textColor="@color/colorDarkBlue"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textKlasesInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@+id/textStundasNosauk"
+            android:text="TextView"
+            android:textColor="@color/colorDarkBlue"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

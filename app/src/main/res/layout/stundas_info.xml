@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/list_border"
+    android:weightSum="1">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textKlase"
+            android:layout_width="60sp"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/textStundNum"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/textStundNum"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="11.1"
+            android:textColor="@color/colorDarkBlue"
+            android:textSize="26sp" />
+
+        <TextView
+
+
+            android:id="@+id/textStundNum"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="10"
+            android:textColor="@color/colorRed"
+            android:textSize="30sp" />
+
+
+        <TextView
+            android:id="@+id/textStundasNosauk"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/textInfo"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/textKlase"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:paddingLeft="5sp"
+            android:singleLine="true"
+            android:text="TextView"
+            android:textColor="@color/colorRed"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/textInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textKlase"
+            android:background="@null"
+            android:gravity="left"
+            android:paddingLeft="10dp"
+            android:text="TextView"
+            android:textColor="@color/colorDarkBlue"
+            android:textSize="16sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/space"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textInfo"
+            android:text="TextView" />
+
+    </RelativeLayout>
+
+</LinearLayout>

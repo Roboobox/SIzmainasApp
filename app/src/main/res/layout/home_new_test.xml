@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    android:scrollbars="none"
+    android:tag="normal_screen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:descendantFocusability="blocksDescendants">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="65dp"
+                android:background="@color/colorOrange"
+                android:paddingBottom="10dp">
+
+                <TextView
+                    android:id="@+id/pamatskolaSvin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/pamatskolaText"
+                    android:layout_marginBottom="7dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:text="TextView"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/pamatskolaText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/vidusskolaSvin"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="11dp"
+                    android:text="Pamatskolā:"
+                    android:textColor="#DA4235"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/vidusskolaSvin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/VidusskolaText"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:text="TextView"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/skolotajiSvin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/relativeLayout3"
+                    android:layout_alignStart="@+id/relativeLayout3"
+                    android:layout_below="@+id/skolotajiText"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:text="TextView"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/VidusskolaText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@+id/relativeLayout3"
+                    android:layout_alignLeft="@+id/relativeLayout3"
+                    android:layout_alignRight="@+id/relativeLayout3"
+                    android:layout_alignStart="@+id/relativeLayout3"
+                    android:layout_below="@+id/skolotajiSvin"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="Vidusskolā:"
+                    android:textColor="#DA4235"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_alignLeft="@+id/relativeLayout3"
+                    android:layout_alignStart="@+id/relativeLayout3"
+                    android:layout_alignTop="@+id/relativeLayout3"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/ic_gift" />
+
+                <TextView
+                    android:id="@+id/vardadienaText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@+id/imageView3"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="11dp"
+                    android:layout_toRightOf="@+id/imageView3"
+                    android:gravity="center"
+                    android:paddingRight="10dp"
+                    android:text="Šodien vārda dienu svin!"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/textView103"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/ic_confetti" />
+
+                <TextView
+                    android:id="@+id/vardaDienuSvin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/vardadienaText"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignStart="@+id/vardadienaText"
+                    android:layout_below="@+id/vardadienaText"
+                    android:layout_marginBottom="7dp"
+                    android:gravity="center"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:text="TextVie"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/skolotajiText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/imageView"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="Skolotāji:"
+                    android:textColor="#DA4235"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/dzimsanasDienuSvin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@+id/relativeLayout3"
+                    android:layout_alignRight="@+id/relativeLayout3"
+                    android:layout_alignTop="@+id/imageView"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_toRightOf="@+id/imageView"
+                    android:gravity="center"
+                    android:paddingRight="10dp"
+                    android:text="Šodien dzimšanas dienu svin!"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView103"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/pamatskolaSvin"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/bottom_white_border" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/relativeLayout3"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:background="#222C2D">
+
+                <TextView
+                    android:id="@+id/infoTodayHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/textInfoHomeTitle"
+                    android:layout_marginTop="17dp"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="18dp"
+                    android:paddingEnd="15dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:paddingStart="15dp"
+                    android:text="Nav"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/textInfoHomeTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/imageView4"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@+id/imageView4"
+                    android:layout_marginLeft="12dp"
+                    android:layout_toEndOf="@+id/imageView4"
+                    android:layout_toRightOf="@+id/imageView4"
+                    android:gravity="center"
+                    android:paddingRight="10dp"
+                    android:text="Informācija šodien"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignLeft="@+id/relativeLayout8"
+                    android:layout_alignStart="@+id/relativeLayout8"
+                    android:layout_alignTop="@+id/relativeLayout8"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginStart="11dp"
+                    android:layout_marginTop="13dp"
+                    app:srcCompat="@drawable/ic_question" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/relativeLayout11"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:background="#7EBFA1">
+
+                <ListView
+                    android:id="@+id/klasesIzmainasList"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@+id/relativeLayout9"
+                    android:layout_alignLeft="@+id/relativeLayout9"
+                    android:layout_alignRight="@+id/relativeLayout9"
+                    android:layout_alignStart="@+id/relativeLayout9"
+                    android:layout_alignTop="@+id/relativeLayout9"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginTop="79dp" />
+
+                <TextView
+                    android:id="@+id/textView102"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/imageKlasesIzmainasNav"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@+id/imageView5"
+                    android:layout_marginLeft="12dp"
+                    android:layout_toEndOf="@+id/imageView5"
+                    android:layout_toRightOf="@+id/imageView5"
+                    android:gravity="center"
+                    android:paddingRight="10dp"
+                    android:text="Klases izmaiņas"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignLeft="@+id/relativeLayout9"
+                    android:layout_alignStart="@+id/relativeLayout9"
+                    android:layout_alignTop="@+id/relativeLayout9"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginTop="16dp"
+                    app:srcCompat="@drawable/ic_news" />
+
+                <ImageView
+                    android:id="@+id/imageKlasesIzmainasNav"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/imageView5"
+                    android:layout_centerHorizontal="true"
+                    android:tint="@color/colorWhite"
+                    app:srcCompat="@drawable/izmainunav" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/textView68"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="@color/colorRed"
+                android:gravity="center"
+                android:text="Sākums"
+                android:textColor="@color/colorWhite"
+                android:textSize="30sp" />
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/relativeLayout8"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:background="#7E4CB6">
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginRight="11dp"
+                    android:layout_marginTop="13dp"
+                    app:srcCompat="@drawable/ic_billboard" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>
