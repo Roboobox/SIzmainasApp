@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayStundas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:overScrollMode="always">
+
+    <TextView
+        android:id="@+id/stunduIzmTitle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="false"
+        android:background="@color/colorRed"
+        android:gravity="center"
+        android:maxLines="1"
+        android:paddingLeft="10px"
+        android:text="Pirmdien 07-Aug"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+
+    <ListView
+        android:id="@+id/stunduListSdn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/stunduIzmTitle"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/buttonNextDayChanges"
+
+        android:layout_width="50sp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorRed"
+        android:elevation="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_nextright"
+        android:text="Button"
+        app:srcCompat="@drawable/ic_nextright" />
+
+    <ImageView
+        android:id="@+id/imageIzmainuNav"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:scaleType="fitCenter"
+        android:visibility="gone"
+        app:srcCompat="@drawable/izmainunav" />
+
+</RelativeLayout>
